@@ -30,7 +30,7 @@
         android:background="@drawable/magnitude_circle"
         android:gravity="center"
         android:textColor="@android:color/white"
-        android:textSize="100sp" />
+        android:textSize="28sp" />
 
     <LinearLayout
         android:id="@+id/text_container"

@@ -22,7 +22,7 @@ private String mUrl;
     public String getLocation() {return mLocation;}
     public String getTime() {
         Date date=new Date(mTime);
-        SimpleDateFormat df2 = new SimpleDateFormat("dd/MM/yy");
+        SimpleDateFormat df2 = new SimpleDateFormat("E, dd MMM yyyy HH:mm:ss z");
         String dateText = df2.format(date);
         return dateText; }
     public String getUrl() {return mUrl;}
